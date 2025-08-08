@@ -1,0 +1,22 @@
+{
+    "name": "ssh/xt-face-sdk",
+    "description": "芯图人脸识别SDK",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ssh\\xtfacesdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ssh",
+            "email": "694711507@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "workerman/workerman": "^5.1",
+        "workerman/webman": "~2.0"
+    }
+}
